@@ -20,6 +20,9 @@
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js" crossorigin="anonymous"></script>
 
+        <!-- Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
         <!-- Styles -->
     
     </head>
@@ -47,5 +50,6 @@
         <script src="{{ asset('dist/js/datatables/datatables-simple-demo.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
         <script src="{{ asset('dist/js/litepicker.js') }}"></script>
+        @stack('scripts')
     </body>
 </html>
